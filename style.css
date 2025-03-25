@@ -1,0 +1,105 @@
+/* style3.css placeholder - Add your 300+ line CSS here */
+body {
+    background: #f7f7f7;
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-wrapper {
+    max-width: 1000px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    border: 1px solid #e0e0e0;
+}
+
+.portfolio-header {
+    text-align: center;
+}
+
+.portfolio-name {
+    font-size: 3rem;
+    color: #5f27cd;
+    border-bottom: 3px solid #5f27cd;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.portfolio-interest {
+    font-size: 1.5rem;
+    color: #ff6b6b;
+}
+
+.portfolio-basic-info p {
+    border-bottom: 1px dashed #ccc;
+    padding: 8px 0;
+}
+
+h2 {
+    color: #1e90ff;
+    margin-top: 30px;
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 6px;
+}
+
+ul li {
+    background: #fafafa;
+    padding: 8px;
+    margin: 5px 0;
+    border-left: 4px solid #5f27cd;
+    transition: background 0.3s;
+}
+
+ul li:hover {
+    background: #f0f0f0;
+}
+
+.portfolio-project-gallery img {
+    width: 30%;
+    margin: 1.5%;
+    border: 4px solid #eee;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.portfolio-project-gallery img:hover {
+    border-color: #5f27cd;
+    transform: scale(1.05);
+}
+
+.portfolio-testimonials blockquote {
+    background: #f0f0f0;
+    padding: 20px;
+    border-left: 4px solid #ff6b6b;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.certificates-gallery img {
+    width: 140px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+.certificates-gallery img:hover {
+    border-color: #1e90ff;
+}
+
+.portfolio-footer a {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #5f27cd;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.portfolio-footer a:hover {
+    background: #ff6b6b;
+}
